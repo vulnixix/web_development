@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>choice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    button:hover {
+        background: #4f7a8f;
+    }
+
+    input:focus,
+    textarea:focus {
+        border-color: #2563eb;
+        outline: 2px solid #2563eb;
+    }
+
+    .hidden1{
+        display: none;
+    }
+    .hidden2{
+        display: none;
+    }
+</style>
+<body>
+<div class="signup">
+  <form>
+    <label>
+      Имя
+      <input type="text" name="name" placeholder="Введите Имя" required>
+    </label>
+    <label>
+      <input class="accept" type="checkbox" name="rules">
+      Мне более 18 лет
+    </label>
+    <button class="tap" type="submit">Отправить</button>
+    <p class="hidden1">Отлично</p>
+    <p class="hidden2">Ты еще маленький</p>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
