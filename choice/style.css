@@ -1,0 +1,55 @@
+button{
+    width: 120px;
+    height: 30px;
+    background-color: #5e9d50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.button1{
+    color: #fffaf5;
+    background: #323ad8;
+}
+
+.button2{
+    color: #fffaf5;
+    background: #323ad8;
+}
+
+.button3{
+    color: #fffaf5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px 12px;
+    border: 1px solid #9aa5b1;
+    border-radius: 8px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+form .button {
+    align-self: flex-start;
+    border: none;
+    font: inherit;
+}
+
+.signup {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 28px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
