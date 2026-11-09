@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Выбор дня</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор дня</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="card">
-  <form id="dayForm" novalidate>
-    <label for="nameInput">Имя</label>
-    <input type="text" id="nameInput" name="name" required placeholder="Введи имя">
+    <form id="dayForm" novalidate>
+        <label for="nameInput">Имя</label>
+        <input type="text" id="nameInput" name="name" required placeholder="Введи имя">
 
-    <label for="daySelect">Выбери день (необязательно)</label>
-    <select id="daySelect" name="day">
-      <option value="">— не выбран —</option>
-      <option value="1">Понедельник</option>
-      <option value="2">Среда</option>
-      <option value="3">Пятница</option>
-    </select>
+        <label for="daySelect">Выбери день</label>
+        <select id="daySelect" name="day">
+            <option value="">не выбран</option>
+            <option value="1">Понедельник</option>
+            <option value="2">Среда</option>
+            <option value="3">Пятница</option>
+        </select>
 
-    <button type="submit">Отправить</button>
-  </form>
+        <button type="submit">Отправить</button>
+    </form>
 
-  <p id="result"></p>
+    <p id="result"></p>
 </div>
 
 <script src="script.js"></script>
