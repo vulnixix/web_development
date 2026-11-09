@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Три темы</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три темы</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="card">
-  <label for="topicSelect">Выбери тему:</label>
-  <select id="topicSelect">
-    <option value="">— не выбрано —</option>
-    <option value="1">Первый шаг</option>
-    <option value="2">Тишина и звук</option>
-    <option value="3">Тёплый свет</option>
-  </select>
+    <label for="topicSelect">Тема</label>
+    <select id="topicSelect">
+        <option value="">выбери тему</option>
+        <option value="1">иррациональные уравнения</option>
+        <option value="2">иррациональные неравенства</option>
+        <option value="3">равносильное уравнение</option>
+    </select>
 
-  <div id="topic1" class="topic hidden">
-    <h3>Первый шаг</h3>
-    <p>Алекс, самый трудный шаг — первый. Пока не начал, всё кажется сложным и далёким. Но стоит сделать одно маленькое действие, и дорога сама начинает разворачиваться перед тобой. Главное — не ждать идеального момента.</p>
-  </div>
+    <div id="topic1" class="topic hidden">
+        <h3>Определение</h3>
+        <p>Иррациональными называют уравнения, в которых переменная содержится под знаком корня (радикала)
+            или под знаком возведения в дробную степень. Проще говоря, это такие уравнения, где неизвестная величина «спрятана» под корнем.</p>
+    </div>
 
-  <div id="topic2" class="topic hidden">
-    <h3>Тишина и звук</h3>
-    <p>Алекс, иногда тишина говорит громче слов. В ней слышно дыхание, шорох листьев за окном и собственные мысли. Попробуй провести десять минут без телефона и музыки — и заметишь, как много вокруг незаметных звуков.</p>
-  </div>
+    <div id="topic2" class="topic hidden">
+        <h3>Определение</h3>
+        <p>Иррациональными называются неравенства, в которых переменная содержится под знаком корня (радикала).</p>
+    </div>
 
-  <div id="topic3" class="topic hidden">
-    <h3>Тёплый свет</h3>
-    <p>Алекс, тёплый свет лампы вечером меняет всё вокруг: комната становится уютнее, а дела — не такими срочными. Это простой способ сказать себе: рабочий день закончен, можно выдохнуть и заняться чем-то приятным.</p>
-  </div>
+    <div id="topic3" class="topic hidden">
+        <h3>Определение</h3>
+        <p>Равносильными называют два уравнения, у которых множества решений совпадают. Иными словами, любое решение первого уравнения является решением второго, и наоборот. Также равносильными считаются уравнения, которые оба не имеют корней.</p>
+    </div>
 </div>
 
 <script src="script.js"></script>
