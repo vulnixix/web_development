@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Форма выбора</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма выбора</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="card">
-  <form id="myForm" novalidate>
-    <label for="nameInput">Имя</label>
-    <input type="text" id="nameInput" name="name" required placeholder="Введи имя">
-      <label class="radio-row">
-        <input type="radio" name="option" value="1">
-        Вариант первый
-      </label>
+    <form id="myForm" novalidate>
+        <label for="nameInput">Имя</label>
+        <input type="text" id="nameInput" name="name" required placeholder="Введи имя">
+        <label class="radio-row">
+            <input type="radio" name="option" value="1">
+            Легкий
+        </label>
 
-      <label class="radio-row">
-        <input type="radio" name="option" value="2">
-        Вариант второй
-      </label>
+        <label class="radio-row">
+            <input type="radio" name="option" value="2">
+            Средний
+        </label>
 
-      <label class="radio-row">
-        <input type="radio" name="option" value="3">
-        Вариант третий
-      </label>
-    <button type="submit">Отправить</button>
-  </form>
+        <label class="radio-row">
+            <input type="radio" name="option" value="3">
+            Сложный
+        </label>
+        <button type="submit">Отправить</button>
+    </form>
 
-  <p id="result"></p>
+    <p id="result"></p>
 </div>
 
 <script src="script.js"></script>
